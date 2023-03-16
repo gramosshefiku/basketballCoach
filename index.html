@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Basketball Coach</title>
 </head>
 <body>
-    
+    <section class="front-page">
+        <img class="hero" src="./assets/hero.jpg" alt="game">
+        <nav>
+            <div class="logo">
+                <img src="./assets/logo1.svg" alt="logo">
+                <h1>basketball coach</h1>
+            </div>
+            <div class="links">
+                <a href="#">our story</a>
+                <a href="#">trainings</a>
+                <a href="#">groups</a>
+            </div>
+            <svg width="44" height="18" viewBox="0 0 44 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line class="line" y1="1" x2="44" y2="1" stroke="white" stroke-width="2"/>
+                <line class="line" y1="9" x2="27" y2="9" stroke="white" stroke-width="2"/>
+                <line class="line" y1="17" x2="11" y2="17" stroke="white" stroke-width="2"/>
+            </svg>
+                
+        </nav>
+        <div class="training-point">
+            <h2>Let your body fly on court.</h2>
+            <h3>Get ulimited access to Training with our proffesional coaches.</h3>
+            <div class="ctas">
+                <button class="cta-sec">Explore Trainings</button>
+                <button class="cta-main"><a href="https://koalendar.com/e/meet-with-gramos-shefiku" target="_blank">Sign up today</a></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="trainings" id="trainings">
+        <div class="trainings-description">
+            <h2>Trainings for you</h2>
+            <h3>It's time to free your mind and body</h3>
+            <div class="videos">
+                <div class="shooting">
+                    <h3>Shoot</h3>
+                    <video class="video" src="./assets/shooting.mp4" muted loop></video>
+                </div>
+                <div class="dribbling">
+                    <h3>Dribble</h3>
+                    <video class="video" src="./assets/dribbling.mp4" muted loop></video>
+                </div>
+                <div class="dunking">
+                    <h3>Dunk</h3>
+                    <video class="video" src="./assets/dunking.mp4" muted loop></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="our-story">
+        <div class="our-story">
+            <h2>Our story...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi temporibus rem optio, autem rerum doloribus maiores accusamus fugiat voluptatum, voluptate ipsum quidem quasi facere in veritatis maxime? Dolor, tempora ipsa.</p>
+            <img src="./assets/our-story.jpg" alt="our-story">
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
 </html>
